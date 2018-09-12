@@ -5,7 +5,7 @@
 
 <H2>MethodServletの入力
 
-<A HREF="../methodServlet?MethodServlet?message=hello">リンクでGET送信</A>
+<A HREF="../MethodServlet?MethodServlet?message=hello">リンクでGET送信</A>
 
 <FORM ACTION="../MethodServlet" METHOD="GET">
 <INPUT TYPE="TEXT" NAME="message">

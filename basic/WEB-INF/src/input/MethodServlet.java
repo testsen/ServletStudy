@@ -34,12 +34,12 @@ public class MethodServlet extends HttpServlet{
 
 
 			//入力エンコーディングの指定
-			request.setCharacterEncoding("Shift-JIS");
+			request.setCharacterEncoding("Windows-31J");
 
 			//入力パラメータ―の取得
 			String msg = request.getParameter("message");
 
-			response.setContentType("text/plain; charset=Shif-JIS");
+			response.setContentType("text/plain; charset=Windows-31J");
 			PrintWriter out = response.getWriter();
 			out.println("message="+ msg);
 

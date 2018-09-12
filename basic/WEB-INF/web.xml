@@ -22,15 +22,17 @@
   version="4.0"
   metadata-complete="true">
 
-  <servlet>
-  	<servlet-name>HelloServlet</servlet-name>
-  	<servlet-class>foo.HelloServlet</servlet-class>
+
+   <servlet>
+  	<servlet-name>MethodServlet</servlet-name>
+  	<servlet-class>input.MethodServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-  	<servlet-name>HelloServlet</servlet-name>
-  	<url-pattern>/HelloServlet</url-pattern>
+  	<servlet-name>MethodServlet</servlet-name>
+  	<url-pattern>/MethodServlet</url-pattern>
   </servlet-mapping>
+
 
 
   <display-name>Welcome to Tomcat</display-name>
