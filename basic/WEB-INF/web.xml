@@ -33,6 +33,16 @@
   	<url-pattern>/MethodServlet</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+  	<servlet-name>ParamListServlet</servlet-name>
+  	<servlet-class>input.ParamListServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>ParamListServlet</servlet-name>
+  	<url-pattern>/ParamListServlet</url-pattern>
+  </servlet-mapping>
+
 
 
   <display-name>Welcome to Tomcat</display-name>
