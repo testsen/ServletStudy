@@ -15,7 +15,7 @@ public class ParamListServlet extends HttpServlet{
 						HttpServletResponse response)
 				throws ServletException, IOException{
 
-		request.setCharacterEncoding("Windows-31J");
+		//request.setCharacterEncoding("Windows-31J");
 
 		response.setContentType("text/plain, charset=Windows-31J");
 		PrintWriter out = response.getWriter();
